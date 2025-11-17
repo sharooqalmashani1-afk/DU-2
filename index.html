@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>صفحة مركز الحاسب الآلي والشبكات</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content container">
+            <div class="hero-text">
+                <h1>مرحباً بك في صفحة مركز الحاسب الآلي والشبكات</h1>
+                <p class="subtitle">
+                    رسالة تفاعلية خاصة موجهة لسعادة الأستاذ الدكتور رئيس الجامعة.
+                </p>
+                <p class="instructions">
+                    فضلاً اضغط على زر <strong>بدء المحادثة</strong> في الأسفل
+                    لتتعرف على محتوى الرسالة من خلال الرد الآلي.
+                </p>
+                <button id="startChatBtn" class="primary-btn">بدء المحادثة</button>
+            </div>
+            <div class="hero-image">
+                <img src="image1.jpg" alt="مركز الحاسب الآلي والشبكات">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="info">
+            <h2>Computing and Networking Center</h2>
+            <p>
+                Welcome to the interactive page of the
+                <strong>Computing and Networking Center</strong>.
+                This page has been designed as a personalized digital message
+                for the University President using a simple intelligent chat.
+            </p>
+        </section>
+
+        <section class="chat-section">
+            <h2>الرد الآلي للمركز</h2>
+            <div id="chatWindow" class="chat-window">
+                <!-- Messages will appear here -->
+            </div>
+            <div id="chatControls" class="chat-controls hidden">
+                <div id="buttonRow" class="button-row"></div>
+                <div id="inputRow" class="input-row hidden">
+                    <input id="userInput" type="text" placeholder="اكتب ردك هنا...">
+                    <button id="sendBtn" class="primary-btn small">إرسال</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-note">
+            <div class="footer-flex">
+                <div class="footer-text">
+                    <h3>مركز الحاسب الآلي والشبكات</h3>
+                    <p>
+                        نفخر بخدمتكم في البنية التحتية الرقمية للجامعة،
+                        ونتطلع دائماً لتعزيز التواصل معكم عبر حلول مبتكرة.
+                    </p>
+                </div>
+                <div class="footer-image">
+                    <img src="image2.jpg" alt="صورة من الحرم الجامعي">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            ©
+            <span>Computing and Networking Center</span>
+            – Interactive Message 2025
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
